@@ -1,3 +1,12 @@
+/**
+ *	@author David De
+ *	@link http://daviddecoding.com/
+ *
+ *	A simple Bloom Filter, using FNV and MurMur hash functions. It holds 32 bits,
+ *	supports insert, isPresent queries.
+ *
+ *	Inspired from the video, https://www.youtube.com/watch?v=51VFKcfGDSc
+ */
 package com.david.ds.filters;
 
 import java.util.BitSet;
